@@ -1,0 +1,29 @@
+.paginationCard {
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #272121;
+  padding: 0 10px;
+  margin: 0.5rem 0;
+}
+
+.paginationCard button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #272121;
+  border: none;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+button.pageSelected {
+  background-color: #000;
+}
+
+@media (min-width: 1024px) {
+  .paginationCard button:hover {
+    background-color: #171010;
+  }
+}

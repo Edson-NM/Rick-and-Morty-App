@@ -1,0 +1,12 @@
+.residentList-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.residentList-card h2 {
+  margin: 0 0 2rem 94px;
+  text-align: start;
+  font-family: pangolin, sans-serif;
+  width: 100%;
+  font-size: xx-large;
+}

@@ -1,0 +1,28 @@
+.locationInfo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 1rem 0;
+}
+
+.locationInfo-card h2 {
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+}
+
+.locationInfo-card p {
+  padding: 0.5rem;
+}
+
+.locationInfo-card b {
+  font-size: small;
+}
+
+@media (min-width: 450px) {
+  .locationInfo-card div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
