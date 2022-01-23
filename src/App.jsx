@@ -13,6 +13,8 @@ import ResidentList from "./components/ResidentList/ResidentList";
 import Pagination from "./components/Pagination/Pagination";
 
 function App() {
+  document.body.style = `background: #2c272e`;
+
   //state
   const [locationData, setLocationData] = useState({});
   const [searchValue, setSearchValue] = useState("");
