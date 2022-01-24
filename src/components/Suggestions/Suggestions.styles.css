@@ -1,0 +1,36 @@
+.suggestions {
+  text-align: center;
+  margin: 0 auto;
+
+  width: 80%;
+  padding-right: 20%;
+  /* width: 40%; */
+  /* padding-right: 10%; */
+}
+
+.suggestions div {
+  background-color: #000;
+}
+
+.suggestions p {
+  color: #4fbdba;
+  padding: 5px 0;
+}
+
+@media (min-width: 640px) {
+  .suggestions {
+    width: 40%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .suggestions div:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .suggestions p:hover {
+    color: #000;
+  }
+}

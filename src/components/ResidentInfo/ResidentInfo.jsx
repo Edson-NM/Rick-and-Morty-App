@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { FaCircle } from "react-icons/fa";
 
 //styles
 import "./ResidentInfo.styles.css";
